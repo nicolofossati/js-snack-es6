@@ -51,4 +51,7 @@ for(let i=0; i<bikes.length; i++){
     }
 
 }
-console.log(`La bici si chiama ${nome_pm} e pesa ${peso_minore}kg`);
+
+
+const title = document.querySelector('#print');
+title.innerHTML = `La bici si chiama ${nome_pm} e pesa ${peso_minore}kg`;
